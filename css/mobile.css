@@ -1,0 +1,55 @@
+@media screen and (max-width : 1100px){
+
+    .navigation{
+        flex-direction: column;
+        margin: auto;
+        margin-top: 23px;
+        margin-bottom: 23px;
+        justify-content: center;
+    }
+
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-right{
+        text-align: center;
+    }
+
+    .content-right{
+        display:none;
+    }
+
+    .content-left h1{
+        text-align: center;
+    }
+
+    .home-article{
+        flex-direction: column;
+    }
+
+    .home-article-im{
+        text-align: center;
+    }
+    .home-article img{
+        width:70vw;
+    }
+
+    .home-article-content{
+        font-size: 4cqw;
+    }
+
+    .form-input{
+        width:50%;
+    }
+
+    .row{
+        display: block;
+    }
+
+    .home-article-content h3{
+        width:100%;
+    }
+}

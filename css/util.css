@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Recursive:wght@300..1000&family=Roboto:ital,wght@1,100;1,300;1,500&display=swap');
+:root{
+    --main-bg-color: rgb(72, 72, 156) ;
+    --font1 : "Recursive", sans-serif ;
+    --font2 : "Roboto", sans-serif;
+    --font3 : "Cedarville Cursive", cursive ;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+.max-width-1{
+    width: 80vw;
+}
+
+.max-width-2{
+    width : 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.btn{
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: antiquewhite;
+    background-color: var(--main-bg-color);
+}
+
+
+.contact-content::after{
+    content: "";
+    background-image: url("../img/background.png");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0px;
+    opacity: 0.5;
+    border-radius: 12px;
+    z-index: -1;
+}
+
+.form-box input,textarea{
+    width: 44vw;
+    padding: 10px 7px;
+    margin: 7px 0px;
+    border-radius: 10px;
+    border: 2px solid rgb(72, 72, 156);
+    font-size: 18px;
+    font-family: var(--font1);
+}
+
+img{
+    margin:0px;
+}
